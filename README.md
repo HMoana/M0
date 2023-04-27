@@ -14,8 +14,7 @@ Responsiveness using wire frame below as a guide is optional:
 ![wireframe2](./src/assets/wireframe2.jpg)
 
 Built with:
-React
-Sass styling
+React and Sass styling
 
 Getting started:
 The software needed to install -
@@ -23,9 +22,9 @@ npm install node-sass
 npm install react-icons
 
 Features:
-1 - Hamburger Menu
-2 - Modal pop up window for Login
-3 - Functioning search bar
+1 - Hamburger Menu,
+2 - Modal pop up window for Login,
+3 - Functioning search bar.
 
 Contact:
 Heni Kimura - henace86@gmail.com
