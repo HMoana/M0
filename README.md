@@ -32,13 +32,10 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 
 ### **Built with:**
 
-- React js
-- Sass
-
-  [React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo-react&logoColor=61DAFB "Reactjs")
-  [React-url](https://reactjs.org/ "Reacturl")
-  [Sass-lang.com](https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo-sass&logoColor=CF649A "Sasslangcom")
-  [Sass-url](https://sass-lang.com/ "Sassurl")
+- [React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo-react&logoColor=61DAFB "Reactjs")
+- [React-url](https://reactjs.org/ "Reacturl")
+- [Sass-lang.com](https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo-sass&logoColor=CF649A "Sasslangcom")
+- [Sass-url](https://sass-lang.com/ "Sassurl")
 
 ---
 
@@ -46,21 +43,21 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 
 ### _Prerequisites -_
 
-1 npx create-react-app .
+- npx create-react-app .
 
 ### _The software needed to install -_
 
-2 npm install node-sass
-3 npm install react-icons --save
+- npm install node-sass
+- npm install react-icons --save
 
 ---
 
 ### **Features:**
 
-1 Functional search bar
-2 Responsive page
-3 Hamburger Menu
-4 Modal login extra function (not responsive)
+- Functional search bar
+- Responsive page
+- Hamburger Menu
+- Modal login extra function (not responsive)
 
 ---
 
@@ -68,6 +65,7 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 
 - Functional search bar needs better responsiveness, particularly the close icon
 - Modal login needs responsiveness
+- Hamburger Menu needs improved responsiveness, so aside nav menu extends across entire screen (mobile device screens)
 - Login and Subscription can be improved to incorporate better validation methods and messages
 - Improve BEM naming conventions for class names and SCSS nesting
 
@@ -89,8 +87,8 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 - Feedback from UX Designer Aneesha Baidwan
 - Canva logo template [Canva](https://www.canva.com/templates/ "Canva")
-- Sass [Sass](https://sass-lang.com/ "Sass")
+- [Sass](https://sass-lang.com/ "Sass")
 - React Icons [React Icons](https://react-icons.github.io/react-icons/ "React Icons")
-- Code Focus SCSS Beginner Project [YouTube] (<https://youtu.be/IWJB76KU1jc> "YouTube")
-- PedroTech React and Sass Tutorial [YouTube] (<https://youtu.be/kpcjSaRngg8> "YouTube")
-- Code Commerce Custom React js Modal [YouTube] (<https://youtu.be/D5oswSO9y-k> "YouTube")
+- Code Focus SCSS Beginner Project [YouTube](https://youtu.be/IWJB76KU1jc "YouTube")
+- PedroTech React and Sass Tutorial [YouTube](https://youtu.be/kpcjSaRngg8 "YouTube")
+- Code Commerce Custom React js Modal [YouTube](https://youtu.be/D5oswSO9y-k "YouTube")
