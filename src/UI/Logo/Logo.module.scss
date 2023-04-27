@@ -1,0 +1,38 @@
+// IMPORTS
+@import "./../../styles/variables.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  // color: $white;
+
+  img {
+    width: 195px;
+    height: 195px;
+  }
+
+  span {
+    font-size: 2rem;
+    color: $white;
+    font-weight: 900;
+    letter-spacing: $letterSpacing;
+    // margin-left: $spacing-sm;
+
+    // ACCESS BREAKPOINT @mixin  - decrease text size when screen is md
+    @include breakpoint(md) {
+      font-size: 1.7rem;
+    }
+
+    // ACCESS BREAKPOINT @mixin  - decrease text size  when screen is sm
+    @include breakpoint(sm) {
+      font-size: 1.5rem;
+    }
+
+    // ACCESS BREAKPOINT @mixin  - won't display when screen is smaller only
+    @include breakpoint(sm-only) {
+      // font-size: 1.2rem;
+      display: none;
+    }
+  }
+}

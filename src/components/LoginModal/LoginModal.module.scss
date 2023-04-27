@@ -1,0 +1,120 @@
+// IMPORTS
+@import "./../../styles/variables.scss";
+
+.modal__overlay {
+  position: fixed;
+  background: rgba($dark, 0.9);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.modal__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 12px 24px;
+  width: 20vw;
+  height: 35vh;
+  background-color: $aqua;
+  box-shadow: $boxShadow;
+  border-radius: $borderRadius;
+  display: flex;
+  justify-content: center;
+  color: $light;
+  font-weight: 700;
+
+  p {
+    cursor: pointer;
+    color: $light;
+    font-size: 1.2rem;
+    letter-spacing: $letterSpacing;
+    line-height: 2;
+  }
+
+  &__modal__content__form {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    letter-spacing: $letterSpacing;
+  }
+
+  input {
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    border-radius: $borderRadius;
+    padding: $spacing-sm $spacing-lg;
+    font-weight: 700;
+    letter-spacing: $letterSpacing;
+    font-size: 1.2rem;
+    background: $light;
+    color: $dark;
+    border: 1px solid $aqua;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba($light, 0.8);
+    }
+
+    &.outline {
+      border: 1px solid $light;
+      background: transparent;
+      color: $light;
+
+      &:hover {
+        background: rgba($light, 0.2);
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: $borderRadius;
+    padding: $spacing-sm $spacing-lg;
+    font-weight: 700;
+    letter-spacing: $letterSpacing;
+    font-size: 1.2rem;
+    background: $light;
+    color: $aqua;
+    border: 1px solid $aqua;
+
+    &:hover {
+      background: rgba($dark, 0.8);
+    }
+
+    &.outline {
+      border: 1px solid $light;
+      background: transparent;
+      color: $light;
+
+      &:hover {
+        background: rgba($light, 0.2);
+      }
+    }
+  }
+
+  a {
+    cursor: pointer;
+    color: $light;
+    font-size: 1.2rem;
+    letter-spacing: $letterSpacing;
+    line-height: 2;
+  }
+}

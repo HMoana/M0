@@ -1,0 +1,114 @@
+// IMPORTS
+@import "./../../styles/variables.scss";
+
+.searchBar__inputs {
+  display: flex;
+  font-family: inherit;
+  position: relative;
+
+  input {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: $borderRadius;
+    padding: $spacing-sm $spacing-lg;
+    font-weight: 700;
+    letter-spacing: $letterSpacing;
+    font-size: 1.1rem;
+    background: $light;
+    color: $dark;
+    border: 1px solid $dark;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba($light, 0.8);
+    }
+
+    &.outline {
+      border: 1px solid $light;
+      background: transparent;
+      color: $light;
+
+      &:hover {
+        background: rgba($light, 0.2);
+      }
+    }
+  }
+
+  .searchBar__icon {
+    button {
+      margin-top: 60px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      border-radius: $borderRadius;
+      padding: $spacing-sm $spacing-lg;
+      font-family: inherit;
+      font-weight: 700;
+      letter-spacing: $letterSpacing;
+      font-size: 1.1rem;
+      background: $aqua;
+      color: $light;
+      border: 1px solid $darkLine;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba($light, 0.8);
+        color: $aqua;
+      }
+
+      &.outline {
+        border: 1px solid $light;
+        background: transparent;
+        // color: $aqua;
+
+        &:hover {
+          background: rgba($light, 0.2);
+        }
+      }
+      // ACCESS BREAKPOINT @mixin  - alter top margin when screen is md
+      @include breakpoint(md-only) {
+        display: none;
+      }
+    }
+  }
+}
+
+.searchBar__dataResult {
+  position: absolute;
+  margin-top: 200px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: $borderRadius;
+  padding: $spacing-sm $spacing-lg;
+  font-weight: 700;
+  letter-spacing: $letterSpacing;
+  font-size: 1.1rem;
+  background: $light;
+  color: $dark;
+  border: 1px solid $dark;
+  overflow: hidden;
+  overflow-y: auto;
+
+  // ACCESS BREAKPOINT @mixin  - alter top margin when screen is md
+  @include breakpoint(md-only) {
+    margin-top: 120px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.searchBar__dataItem {
+  a {
+    color: $dark;
+    text-decoration: none;
+  }
+
+  p {
+    text-align: left;
+    line-height: 1.5;
+  }
+}
