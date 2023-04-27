@@ -47,8 +47,9 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 
 ### _The software needed to install -_
 
-- npm install -g sass
-- npm install react-icons --save
+- npm i react-router-dom
+- npm i react-icons --save
+- npm i -g sass
 
 ---
 
