@@ -1,6 +1,6 @@
 # The Kimura Dojo
 
-![HeniLogo](./src/assets/HeniLogo.jpg)
+![HeniLogo](./src/assets/HeniLogo.png)
 
 ## A simple listing website home page
 
@@ -26,7 +26,7 @@
 
 I have created a website under the company name of **_The Kimura Dojo_**. Incorporating both my name and love for anime & martial arts. The Kimura Dojo is martial arts school, specializing in kendo, judo and jujitsu. Users to the website can search for former apprentices that trained at the dojo.
 
-#### **Purpose**
+### **Purpose**
 
 The purpose of this project was to implement SASS styling for the first time. Prior to this I had only used CSS while using the React js framework.
 
@@ -47,7 +47,7 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 
 ### _The software needed to install -_
 
-- npm install node-sass
+- npm install -g sass
 - npm install react-icons --save
 
 ---
@@ -57,15 +57,15 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 - Functional search bar
 - Responsive page
 - Hamburger Menu
-- Modal login extra function (not responsive)
+- Modal login (extra function)
 
 ---
 
 ### **Future improvements:**
 
 - Functional search bar needs better responsiveness, particularly the close icon
-- Modal login needs responsiveness
 - Hamburger Menu needs improved responsiveness, so aside nav menu extends across entire screen (mobile device screens)
+- Modal login needs responsiveness
 - Login and Subscription can be improved to incorporate better validation methods and messages
 - Improve BEM naming conventions for class names and SCSS nesting
 
@@ -88,7 +88,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 - Feedback from UX Designer Aneesha Baidwan
 - Canva logo template [Canva](https://www.canva.com/templates/ "Canva")
 - [Sass](https://sass-lang.com/ "Sass")
-- React Icons [React Icons](https://react-icons.github.io/react-icons/ "React Icons")
+- [React Icons](https://react-icons.github.io/react-icons/ "React Icons")
 - Code Focus SCSS Beginner Project [YouTube](https://youtu.be/IWJB76KU1jc "YouTube")
 - PedroTech React and Sass Tutorial [YouTube](https://youtu.be/kpcjSaRngg8 "YouTube")
 - Code Commerce Custom React js Modal [YouTube](https://youtu.be/D5oswSO9y-k "YouTube")
