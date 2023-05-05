@@ -129,9 +129,9 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ### **Acknowledgments**
 
 - Feedback from UX Designer Aneesha Baidwan
-- Logo template [Canva](https://www.canva.com/templates/ "Canva")
+- [Canva](https://www.canva.com/templates/ "Canva")
 - [Sass](https://sass-lang.com/ "Sass")
 - [React Icons](https://react-icons.github.io/react-icons/ "React Icons")
-- Code Focus SCSS Beginner Project [YouTube](https://youtu.be/IWJB76KU1jc "YouTube")
-- PedroTech React and Sass Tutorial [YouTube](https://youtu.be/kpcjSaRngg8 "YouTube")
-- Code Commerce Custom React js Modal [YouTube](https://youtu.be/D5oswSO9y-k "YouTube")
+- [YouTube](https://youtu.be/IWJB76KU1jc "YouTube")
+- [YouTube](https://youtu.be/kpcjSaRngg8 "YouTube")
+- [YouTube](https://youtu.be/D5oswSO9y-k "YouTube")
