@@ -93,6 +93,8 @@ The purpose of this project was to implement SASS styling for the first time. Pr
    npm install
    ```
 
+---
+
 ### **Features:**
 
 - Functional search bar
