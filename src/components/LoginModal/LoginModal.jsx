@@ -32,13 +32,13 @@ const LoginModal = ({ open, onClose }) => {
             {/* FORM */}
             <form
               action=""
-              className={classes.modal__content__form}
+              className={classes["modal__content--form"]}
               onSubmit={handleSubmit}
             >
               {/* TITLE */}
-              <h1>Login</h1>
+              <h1 className={classes["modal__content--title"]}>Login</h1>
               {/* EMAIL */}
-              <div className={classes.form__email}>
+              <div className={classes["form__group"]}>
                 <input
                   type="email"
                   placeholder="youremail@mail.com"
@@ -47,10 +47,11 @@ const LoginModal = ({ open, onClose }) => {
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                   required
+                  className={classes["form__control"]}
                 />
               </div>
               {/* PASSWORD */}
-              <div className={classes.form__password}>
+              <div className={classes["form__group"]}>
                 <input
                   type="password"
                   placeholder="password"
@@ -59,17 +60,28 @@ const LoginModal = ({ open, onClose }) => {
                   onChange={(e) => setPassword(e.target.value)}
                   value={password}
                   required
+                  className={classes["form__control"]}
                 />
                 {/* LOGIN BUTTON */}
-                <button type="submit" name="submit">
+                <button type="submit" name="submit" className={classes["btn"]}>
                   Login
                 </button>
               </div>
               {/* BASE */}
-              <a href="#forgot">Forgot password?</a>
-              <p>
-                Don't have an account? <a href="#register">Register</a>
-              </p>
+              <div className={classes["modal__content--base"]}>
+                <a href="#forgot" className={classes["modal__content--link"]}>
+                  Forgot password?
+                </a>
+                <p className={classes["modal__content--text"]}>
+                  Don't have an account?{" "}
+                  <a
+                    href="#register"
+                    className={classes["modal__content--link"]}
+                  >
+                    Register
+                  </a>
+                </p>
+              </div>
             </form>
           </div>
         </div>

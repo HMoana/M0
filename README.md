@@ -110,7 +110,7 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 - Hamburger Menu needs improved responsiveness, so aside nav menu extends across entire screen (mobile device screens)
 - Modal login needs responsiveness
 - Login and Subscription can be improved to incorporate better validation methods and messages
-- Improve BEM naming conventions for class names and SCSS nesting
+- Improve SCSS nesting
 
 ---
 

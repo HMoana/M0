@@ -24,7 +24,7 @@
     @include breakpoint(md) {
       display: none;
     }
-    &__toggle {
+    &--toggle {
       color: $white;
       position: relative;
       z-index: 10;

@@ -113,17 +113,17 @@ const Profiles = ({ page }) => {
       <div className={`${classes.profiles} ${page ? classes.page : ""}`}>
         {/* CONTENT - TITLE */}
         <div className={classes.profiles__content}>
-          <h2 className={classes.profiles__content__title}>
+          <h2 className={classes["profiles__content--title"]}>
             Apprentice Profiles
           </h2>
           {/* CONTENT - GALLERY - CARDS */}
-          <div className={classes.profiles__content__gallery}>
+          <div className={classes["profiles__content--gallery"]}>
             {mapData.map(({ id, profile, Image }) => (
               <div className={classes.gallery__item} key={id}>
                 <img
                   src={Image}
                   alt={profile}
-                  className={classes.gallery__item__img}
+                  className={classes["gallery__item--img"]}
                 />
                 <div className={classes.overlay} />
                 <div className={classes.gallery__item__content}>
@@ -137,7 +137,7 @@ const Profiles = ({ page }) => {
           </div>
           {/* VIEW MORE LINK */}
           {!page && (
-            <div className={classes.profiles__content__viewmore}>
+            <div className={classes["profiles__content--viewmore"]}>
               <Link to="/profiles">
                 view more <BsArrowRight />
               </Link>

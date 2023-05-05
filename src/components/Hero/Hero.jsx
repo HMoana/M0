@@ -2,7 +2,7 @@
 import React, { Fragment } from "react";
 
 // PAGES & COMPONENTS
-import SearchBar from "./../../UI/SearchBar/SearchBar";
+import SearchBar from "../../UI/SearchBar/SearchBar";
 import ProfilesData from "./Data/Data.json";
 import classes from "./Hero.module.scss";
 
@@ -13,10 +13,12 @@ import Dojo from "./../../assets/dojo2.jpg";
 const HomePageContent = () => {
   return (
     <Fragment>
-      <h1 className={classes.hero__content__title}>The way of Bushidō</h1>
-      <span className={classes.hero__content__tagline}>A path to Harmony</span>
+      <h1 className={classes["hero__content--title"]}>The way of Bushidō</h1>
+      <span className={classes["hero__content--tagline"]}>
+        A path to Harmony
+      </span>
 
-      <div className={classes.hero__content__cta}>
+      <div className={classes["hero__content--cta"]}>
         <SearchBar placeholder="Search apprentices..." data={ProfilesData} />
       </div>
     </Fragment>
@@ -32,7 +34,7 @@ const Hero = ({ isDynamic, children }) => {
           {/* WILL DISPLAY 'children' if 'isDynamic' */}
           {!isDynamic && <HomePageContent />}
           {isDynamic && (
-            <h1 className={classes.hero__content__title}>{children}</h1>
+            <h1 className={classes["hero__content--title"]}>{children}</h1>
           )}
         </div>
       </div>
