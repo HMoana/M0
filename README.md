@@ -1,6 +1,41 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
+<a name="readme-top"></a>
+
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 # The Kimura Dojo
 
-![HeniLogo](./src/assets/HeniLogo.png)
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="/src/assets/HeniLogo.png" alt="Logo" width="80" height="80">
+  </a>
+  </div>
+
+<!-- ![HeniLogo](./src/assets/HeniLogo.png) -->
 
 ## A simple listing website home page
 
@@ -43,15 +78,49 @@ The purpose of this project was to implement SASS styling for the first time. Pr
 
 ### _Prerequisites -_
 
-- npx create-react-app .
-
 ### _The software needed to install -_
 
-- npm i react-router-dom
-- npm i react-icons --save
-- npm i -g sass
+- React
+
+  ```sh
+  npx create-react-app .
+  ```
+
+- React Router Dom
+
+  ```sh
+  - npm install react-router-dom
+  ```
+
+- React Icons
+
+  ```sh
+  - npm install react-icons --save
+  ```
+
+  - Sass
+
+  ```sh
+  - npm install -g sass
+  ```
 
 ---
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/HMoana/M0.git
+   ```
+
+2. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### **Features:**
 
